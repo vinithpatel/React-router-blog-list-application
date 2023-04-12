@@ -1,0 +1,29 @@
+.blog-details-container {
+  margin-top: 20px;
+}
+.blog-container {
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  font-family: 'Roboto';
+}
+@media (min-width: 768px) {
+  .blog-container {
+    padding: 60px;
+  }
+}
+.blog-heading {
+  font-size: 20px;
+  align-self: center;
+  margin-bottom: 20px;
+}
+.blog-details-image {
+  width: 100%;
+  border-radius: 10px;
+}
+.content {
+  font-weight: 400;
+  font-size: 18px;
+  color: #2f4f4f;
+}
